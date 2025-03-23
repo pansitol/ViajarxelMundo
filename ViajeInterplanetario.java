@@ -134,7 +134,7 @@ public class ViajeInterplanetario {
                 oxigenoDisponible -= avance * CONSUMO_OXIGENO;
 
                 if (combustibleDisponible <= 0 || oxigenoDisponible <= 0) {
-                    System.out.println("\n¡Recursos agotados! Nave explotó, tripulantes murieron.");
+                    System.out.println("\n¡Recursos agotados! Nave explotó, tripulantes murieron, Enviando mensaje a tierra, no nos busquen morimos.");
                     viajeExitoso = false;
                     break;
                 }
